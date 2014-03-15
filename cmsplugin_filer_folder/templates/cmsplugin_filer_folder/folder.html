@@ -1,4 +1,6 @@
-{% load i18n thumbnail sekizai_tags %}
+{% load i18n sekizai_tags %}
+{% load smart_load %}
+{% load thumbnail from easy_thumbnails %}
 {% addtoblock "css" %}<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}cmsplugin_filer_folder/css/slideshow.css" media="screen, projection" />{% endaddtoblock "css" %}
 {% addtoblock "js" %}<script type="text/javascript" src="{{ STATIC_URL }}cmsplugin_filer_folder/js/jquery.cycle.lite-1.0.js"></script>{% endaddtoblock "js" %}
 {% addtoblock "js" %}

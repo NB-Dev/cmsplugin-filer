@@ -30,6 +30,7 @@ setup(
         "django-sekizai >= 0.4.2",
         "easy_thumbnails >= 1.0",
         "django-filer >= 0.9"
+        "django-smart-load-tag >= 0.3.2"
     ],
     include_package_data=True,
     zip_safe = False,
